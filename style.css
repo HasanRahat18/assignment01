@@ -1,0 +1,115 @@
+body{
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0;
+     }
+h1{
+    font-size: 50px;
+    
+}
+.link-button{
+    
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+.center{
+    color: white;
+    text-align: center;
+    background-image: url(images/don.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;     
+    /* width: 100%; */
+    padding: 10% 0 0 0;
+}
+.donate-plan-section{
+    
+    text-align: center;
+}
+.donate-today{
+    text-align: center;
+    
+}
+.col{
+    border-radius: 5px;
+    border: 0.5px solid wheat;
+    margin: 0 15px;
+    padding: 5px 5px;
+    background-color:#E6E6E6;
+}
+.tk{
+    border-radius: 5px;
+    padding: 5px 5px;
+    border: 1px solid red;
+    background-color: tomato;
+}
+input[type=text] {
+    text-align: center;
+    border-radius: 5px;
+    width: 550px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #24292E;
+}
+.type{
+
+    text-align: center;
+}
+.donate-here{
+   
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+.donate-plan{
+
+    margin: 0 auto;
+    width: 90%;
+    
+    display: flex;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#plan1{
+    background-color: #EDF5F6;
+    padding: 20px 10px;
+}
+#plan2{
+    background-color: #FFEEEE;
+    padding: 20px 10px;
+    margin: 0 10px;
+}
+#plan3{
+    background-color: #FFF4D6;
+    padding: 20px 10px;
+}
+
+
+
+.foot{
+   
+    background-color: black;
+    text-align: center;
+    height: 150px;
+    
+
+}
+.foot h2{
+    font-family: 'Bad Script', cursive;
+        padding-top: 30px;
+    color: red;
+}
+.foot h6{
+    padding-bottom: 80px;
+    color: wheat
+}
