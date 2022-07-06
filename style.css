@@ -73,11 +73,11 @@ input[type=text] {
 .donate-plan{
 
     margin: 0 auto;
-    width: 90%;
+    width: 60%;
     
     display: flex;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 #plan1{
@@ -102,16 +102,17 @@ input[type=text] {
    
     background-color: black;
     text-align: center;
-    height: 150px;
+    height: 200px;
     
 
 }
 .foot h2{
     font-family: 'Bad Script', cursive;
         padding-top: 30px;
+        
     color: red;
 }
 .foot h6{
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     color: wheat
 }
