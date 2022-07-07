@@ -14,8 +14,9 @@ h1{
     background-image: linear-gradient(orange,tomato);
     color: white;
     font-weight: 400;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 5px; 
+    cursor: pointer;
 }
 .center{
     color: white;
@@ -95,7 +96,60 @@ input[type=text] {
     background-color: #FFF4D6;
     padding: 20px 10px;
 }
+.half-width{
+    
+    width: 60%;
+    
+    margin: 20px ;
+    background-color: #FFEEEE;
+}
 
+.half-width img{
+    width: 100%;
+    border-radius: 10PX;
+    background-color: white;
+   
+}
+.lives-depends{
+    
+    display: flex;
+}
+.updates{
+    text-align: center;
+}
+.registerbtn {
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+  }
+input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+input[type=text]{
+    width: 50%;
+    padding: 8px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  form{
+    background-color:#FFF4D6;
+    margin: 50px;
+  }
+  .signin {
+    background-color: #FFF4D6;
+    padding-bottom: 19px;
+    text-align: center;
+  }
+  
 
 
 .foot{
